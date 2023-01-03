@@ -1,0 +1,32 @@
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>3ºDay</title>
+		<script>
+
+			const area = prompt("Você quer seguir para área de Front-End(digite 1) ou seguir para a área de Back-End(digite 2)?");
+
+			if(area == 1){
+			 const aprender = prompt("Caso esteja na área de Front-End, Você quer aprender React ou aprender Vue?");
+			 alert("Você escolheu ser Front-End, aprendendo " + aprender);
+			}
+
+			if(area == 2){
+			 const aprendendo = prompt("Caso esteja na área de Back-End, poderá aprender C# ou aprender Java.");
+			 alert("Você escolheu ser Back-End, aprendendo " + aprendendo);
+
+			}
+			 
+			const especializandoOuFullstack = prompt("Você escolhe entre seguir se especializando na área escolhida ou seguir se desenvolvendo para se tornar Fullstack?");
+
+			alert("Voce escolheu seguir se " + especializandoOuFullstack);
+
+			const conhecer = prompt("Quantas tecnologias que você gostaria de aprender?");
+
+			const tecnologia = prompt("Quais são as tecnologias nas quais a pessoa gostaria de se especializar ou de conhecer?");
+
+			alert("Muito boa essa escolha de " + tecnologia);
+		
+		</script>
+
+		<p>CONTINUE ESTUDANDO</p>
