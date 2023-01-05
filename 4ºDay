@@ -1,0 +1,22 @@
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>4ºDay</title>
+		<script>
+
+		alert ("Tente acertar o jogo!");
+		let chute = prompt("Digite o um numero de 0 a 10.");
+
+		const numeroAdivinhacao = 7;
+
+		if(chute == numeroAdivinhacao){
+			alert("Parabéns Voce acertou!")
+		}if(chute != numeroAdivinhacao){
+			alert("Voce errou!")
+		}
+
+			
+						
+		</script>
+
+		<p>CONTINUE ESTUDANDO</p>
