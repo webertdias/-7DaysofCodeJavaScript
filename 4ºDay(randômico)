@@ -1,0 +1,30 @@
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>4ºDay</title>
+		<script>
+		const numeroAdivinhacao = Math.floor(Math.random() * (10 - 0 + 1) + 0);	
+
+		alert ("Tente acertar o numero do jogo!");
+		
+		for(let i = 0; i < 3; i++){		
+		let chute = prompt("Digite o um numero de 0 a 10.");
+
+	  	if(chute == numeroAdivinhacao){
+			alert("Parabéns Voce acertou!")
+			chute = true;
+			break;
+		}	
+	  	if (chute != numeroAdivinhacao){
+			alert("Voce errou!");
+		}
+		}
+
+		alert("O numero certo era " + numeroAdivinhacao);
+
+		
+		
+					
+		</script>
+
+		<p>CONTINUE ESTUDANDO</p>
